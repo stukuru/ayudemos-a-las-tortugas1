@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Salva a la tortuga</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game">
+  <div id="hud"><div><img data-k="clock" class="ic"> <span id="time">60</span>s &nbsp; ⭐ <span id="pts">0/20</span></div><button id="rs" aria-label="Reiniciar partida"><img data-k="restart"></button><div id="life"><div id="lifebar"></div></div></div>
+  <div id="area"><div id="toast"></div><div id="spd"></div><img id="turtle" alt="Tortuga"></div>
+  <div id="bins">
+    <button class="bin" data-b="pla">Plástico</button>
+    <button class="bin" data-b="vid">Vidrio</button>
+    <button class="bin" data-b="pap">Papel y cartón</button>
+    <button class="bin" data-b="reu" aria-label="Reutilizar"><img data-k="reu"></button>
+  </div>
+  <div id="ov"></div>
+  <div id="splash"><img id="stu" data-k="sturtle" alt=""><img id="sbtn" data-k="sbtn" alt="Haz click para comenzar"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
